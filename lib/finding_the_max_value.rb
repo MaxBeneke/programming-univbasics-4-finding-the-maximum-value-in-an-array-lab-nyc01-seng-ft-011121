@@ -4,5 +4,5 @@ def find_max_value(array)
   while count < array.length do
   new_array.push(array.sort[count])
 end
-  new_array
+  new_array[-1]
 end
